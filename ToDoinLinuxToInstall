@@ -1,0 +1,9 @@
+when manually installing software:
+    download tar file
+    unzip tar file
+    create software folder in /opt
+        mkdir -p /opt/<name of the software>
+    add to /usr/bin
+        update-alternatives --install "/usr/bin/<name of the software>" "<name of the command>" "<location of the file to run when command run>" 1
+    set global command to be called from /usr/bin
+        update-alternatives --set <name of the command> <location of the file to run when command fired>

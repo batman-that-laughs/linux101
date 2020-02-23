@@ -1,0 +1,6 @@
+when manually uninstalling software:
+    get the list of pakage names installed in the system
+        dpkg --list
+    choose package to uninstall
+    remove the package
+        apt-get --purge<optional> remove <exact package name>
