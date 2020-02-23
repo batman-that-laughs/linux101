@@ -4,3 +4,7 @@ when manually uninstalling software:
     choose package to uninstall
     remove the package
         apt-get --purge<optional> remove <exact package name>
+    clean stack tree/ cache:
+        apt-get clean
+    the autoremove command:
+        autoremove will automatically remove the package and the dependent packages that user may manually miss
